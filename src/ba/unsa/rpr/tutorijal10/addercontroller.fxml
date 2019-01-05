@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<GridPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" prefHeight="300" prefWidth="300" hgap="5" vgap="5">
+    <stylesheets> <URL value="@dizajn.css" /> </stylesheets>
+    <Label fx:id="nazivLabela" GridPane.rowIndex="1" GridPane.columnIndex="0" text="Naziv"/>
+    <Label fx:id="magicnaLabelaJedan" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <Label fx:id="magicnaLabelaDva" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+    <TextField fx:id="nazivTf" GridPane.rowIndex="1" GridPane.columnIndex="1" styleClass="poljeNeutralno"/>
+    <TextField fx:id="magicniTfJedan" GridPane.rowIndex="2" GridPane.columnIndex="1" styleClass="poljeNeutralno"/>
+    <TextField fx:id="magicniTfDva" GridPane.rowIndex="3" GridPane.columnIndex="1" styleClass="poljeNeutralno"/>
+    <padding>
+        <Insets bottom="5" right="5" top="5" left="5"/>
+    </padding>
+</GridPane>
