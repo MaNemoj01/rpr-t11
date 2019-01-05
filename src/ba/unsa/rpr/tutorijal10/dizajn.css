@@ -1,0 +1,21 @@
+.poljeIspravno {
+    -fx-control-inner-background: greenyellow;
+    -fx-text-fill: black;
+}
+.poljeNijeIspravno {
+    -fx-control-inner-background: lightpink;
+    -fx-text-fill: black;
+
+}
+.poljeNeutralno {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+
+}
+
+#magicnaLabelaJedan{
+    -fx-text-fill: black;
+}
+#magicnaLabelaDva{
+    -fx-text-fill: black;
+}
